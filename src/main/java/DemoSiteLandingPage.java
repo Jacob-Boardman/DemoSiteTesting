@@ -15,5 +15,6 @@ public class DemoSiteLandingPage {
 	public void createAndLogin(String user, String pass) {
 		this.user.sendKeys(user);
 		this.pass.sendKeys(pass);
+		button.click();
 	}
 }
